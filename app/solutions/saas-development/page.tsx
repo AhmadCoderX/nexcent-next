@@ -7,11 +7,11 @@ import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "SaaS Product Development | Axiom AI - Scalable SaaS Solutions",
+  title: "SaaS Product Development | Nexcent - Scalable SaaS Solutions",
   description: "Scale your product into a real SaaS platform. Architecture, multi-tenancy, payments, performance, security, and mobile apps.",
   keywords: ["SaaS development", "SaaS platform", "multi-tenant", "scalable architecture", "SaaS engineering"],
   openGraph: {
-    title: "SaaS Product Development | Axiom AI",
+    title: "SaaS Product Development | Nexcent",
     description: "Scale your product into a real SaaS platform. Architecture, multi-tenancy, payments, and more.",
     type: "website",
   },

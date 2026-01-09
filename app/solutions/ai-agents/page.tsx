@@ -9,11 +9,11 @@ import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "AI Agents & Automation | Axiom AI - 24/7 Intelligent Automation",
+  title: "AI Agents & Automation | Nexcent - 24/7 Intelligent Automation",
   description: "Deploy AI agents that run your workflows 24/7. Automate customer support, sales, and operations with intelligent agents.",
   keywords: ["AI agents", "automation", "AI customer support", "AI sales", "workflow automation"],
   openGraph: {
-    title: "AI Agents & Automation | Axiom AI",
+    title: "AI Agents & Automation | Nexcent",
     description: "Deploy AI agents that run your workflows 24/7. Automate customer support, sales, and operations.",
     type: "website",
   },

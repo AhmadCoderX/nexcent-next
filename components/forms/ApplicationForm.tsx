@@ -61,7 +61,7 @@ const ApplicationForm = () => {
 
   if (isSubmitted) {
     return (
-      <div className="max-w-2xl mx-auto bg-card rounded-2xl p-12 shadow-card border border-border text-center">
+      <div className="bg-card rounded-2xl p-12 shadow-card border border-border text-center">
         <div className="w-16 h-16 rounded-full gradient-bg flex items-center justify-center mx-auto mb-6">
           <CheckCircle className="w-8 h-8 text-primary-foreground" />
         </div>
@@ -80,23 +80,23 @@ const ApplicationForm = () => {
   }
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="px-4">
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-10">
           <FormField
             control={form.control}
             name="whatBuilding"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>What are you building?</FormLabel>
+                <FormLabel className="text-base font-semibold">What are you building?</FormLabel>
                 <FormControl>
                   <Textarea
                     placeholder="Describe your product, idea, or project in detail..."
-                    className="min-h-[120px]"
+                    className="min-h-[120px] text-base"
                     {...field}
                   />
                 </FormControl>
-                <FormDescription>
+                <FormDescription className="text-base">
                   Help us understand your vision and goals.
                 </FormDescription>
                 <FormMessage />
@@ -109,10 +109,10 @@ const ApplicationForm = () => {
             name="stage"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Current stage</FormLabel>
+                <FormLabel className="text-base font-semibold">Current stage</FormLabel>
                 <Select onValueChange={field.onChange} defaultValue={field.value}>
                   <FormControl>
-                    <SelectTrigger>
+                    <SelectTrigger className="text-base">
                       <SelectValue placeholder="Select your current stage" />
                     </SelectTrigger>
                   </FormControl>
@@ -123,7 +123,7 @@ const ApplicationForm = () => {
                     <SelectItem value="scaling">Scaling / growing</SelectItem>
                   </SelectContent>
                 </Select>
-                <FormDescription>
+                <FormDescription className="text-base">
                   Where are you in your product journey?
                 </FormDescription>
                 <FormMessage />
@@ -136,7 +136,7 @@ const ApplicationForm = () => {
             name="budget"
             render={({ field }) => (
               <FormItem className="space-y-3">
-                <FormLabel>Budget range</FormLabel>
+                <FormLabel className="text-base font-semibold">Budget range</FormLabel>
                 <FormControl>
                   <RadioGroup
                     onValueChange={field.onChange}
@@ -145,31 +145,31 @@ const ApplicationForm = () => {
                   >
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="under-5k" id="under-5k" />
-                      <label htmlFor="under-5k" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                      <label htmlFor="under-5k" className="text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                         Under $5,000
                       </label>
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="5k-10k" id="5k-10k" />
-                      <label htmlFor="5k-10k" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                      <label htmlFor="5k-10k" className="text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                         $5,000 - $10,000
                       </label>
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="10k-20k" id="10k-20k" />
-                      <label htmlFor="10k-20k" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                      <label htmlFor="10k-20k" className="text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                         $10,000 - $20,000
                       </label>
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="20k-plus" id="20k-plus" />
-                      <label htmlFor="20k-plus" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                      <label htmlFor="20k-plus" className="text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                         $20,000+
                       </label>
                     </div>
                   </RadioGroup>
                 </FormControl>
-                <FormDescription>
+                <FormDescription className="text-base">
                   What&apos;s your budget for this project?
                 </FormDescription>
                 <FormMessage />
@@ -182,7 +182,7 @@ const ApplicationForm = () => {
             name="timeline"
             render={({ field }) => (
               <FormItem className="space-y-3">
-                <FormLabel>Timeline</FormLabel>
+                <FormLabel className="text-base font-semibold">Timeline</FormLabel>
                 <FormControl>
                   <RadioGroup
                     onValueChange={field.onChange}
@@ -191,31 +191,31 @@ const ApplicationForm = () => {
                   >
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="asap" id="asap" />
-                      <label htmlFor="asap" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                      <label htmlFor="asap" className="text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                         ASAP
                       </label>
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="1-2-months" id="1-2-months" />
-                      <label htmlFor="1-2-months" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                      <label htmlFor="1-2-months" className="text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                         1-2 months
                       </label>
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="3-6-months" id="3-6-months" />
-                      <label htmlFor="3-6-months" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                      <label htmlFor="3-6-months" className="text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                         3-6 months
                       </label>
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="6-plus-months" id="6-plus-months" />
-                      <label htmlFor="6-plus-months" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                      <label htmlFor="6-plus-months" className="text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                         6+ months
                       </label>
                     </div>
                   </RadioGroup>
                 </FormControl>
-                <FormDescription>
+                <FormDescription className="text-base">
                   When do you want to start?
                 </FormDescription>
                 <FormMessage />

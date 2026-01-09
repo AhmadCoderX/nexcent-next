@@ -62,11 +62,8 @@ const Header = () => {
       <div className="container mx-auto px-6 lg:px-8">
         <nav className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-xl gradient-bg flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-xl">A</span>
-            </div>
-            <span className="font-display font-bold text-xl text-foreground">Axiom</span>
+          <Link href="/" className="flex items-center">
+            <span className="font-logo font-bold text-2xl gradient-text">Nexcent</span>
           </Link>
 
           {/* Desktop Navigation */}

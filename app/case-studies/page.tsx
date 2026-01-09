@@ -5,11 +5,11 @@ import Footer from "@/components/Footer";
 import CaseStudiesGrid from "@/components/sections/CaseStudiesGrid";
 
 export const metadata: Metadata = {
-  title: "Case Studies | Axiom AI - Success Stories",
+  title: "Case Studies | Nexcent - Success Stories",
   description: "See how we've helped founders and teams launch successful AI-powered products. Real results from real projects.",
   keywords: ["case studies", "success stories", "portfolio", "client results"],
   openGraph: {
-    title: "Case Studies | Axiom AI",
+    title: "Case Studies | Nexcent",
     description: "See how we've helped founders and teams launch successful AI-powered products.",
     type: "website",
   },

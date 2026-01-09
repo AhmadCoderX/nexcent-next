@@ -5,11 +5,11 @@ import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How It Works | Axiom AI - Our Process",
+  title: "How It Works | Nexcent - Our Process",
   description: "A proven process that gets you from idea to launched product in weeks. Discover, build, and launch with transparency and speed.",
   keywords: ["product development process", "how it works", "development workflow", "product launch process"],
   openGraph: {
-    title: "How It Works | Axiom AI",
+    title: "How It Works | Nexcent",
     description: "A proven process that gets you from idea to launched product in weeks.",
     type: "website",
   },

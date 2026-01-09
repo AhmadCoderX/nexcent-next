@@ -27,11 +27,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl gradient-bg flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-xl">A</span>
-              </div>
-              <span className="font-display font-bold text-xl text-foreground">Axiom</span>
+            <Link href="/" className="flex items-center mb-4">
+              <span className="font-logo font-bold text-2xl gradient-text">Nexcent</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               We help ambitious teams build and launch AI-powered products that deliver real results.
@@ -93,7 +90,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-border">
           <p className="text-sm text-muted-foreground text-center">
-            © {new Date().getFullYear()} Axiom AI. All rights reserved.
+            © {new Date().getFullYear()} Nexcent. All rights reserved.
           </p>
         </div>
       </div>

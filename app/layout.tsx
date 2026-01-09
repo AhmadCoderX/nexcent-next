@@ -5,8 +5,8 @@ import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: {
-    default: "Axiom AI - Build and Launch AI-Powered Products",
-    template: "%s | Axiom AI",
+    default: "Nexcent - Build and Launch AI-Powered Products",
+    template: "%s | Nexcent",
   },
   description:
     "We help ambitious founders and teams ship AI MVPs, intelligent agents, and scalable SaaS products in 6–8 weeks. From vision to launch, we build what actually works.",
@@ -20,28 +20,28 @@ export const metadata: Metadata = {
     "AI automation",
     "startup development",
   ],
-  authors: [{ name: "Axiom AI" }],
-  creator: "Axiom AI",
-  publisher: "Axiom AI",
-  metadataBase: new URL("https://axiomai.com"),
+  authors: [{ name: "Nexcent" }],
+  creator: "Nexcent",
+  publisher: "Nexcent",
+  metadataBase: new URL("https://nexcent.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://axiomai.com",
-    title: "Axiom AI - Build and Launch AI-Powered Products",
+    url: "https://nexcent.com",
+    title: "Nexcent - Build and Launch AI-Powered Products",
     description:
       "We help ambitious founders and teams ship AI MVPs, intelligent agents, and scalable SaaS products in 6–8 weeks. From vision to launch, we build what actually works.",
-    siteName: "Axiom AI",
+    siteName: "Nexcent",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Axiom AI - Build and Launch AI-Powered Products",
+    title: "Nexcent - Build and Launch AI-Powered Products",
     description:
       "We help ambitious founders and teams ship AI MVPs, intelligent agents, and scalable SaaS products in 6–8 weeks.",
-    creator: "@axiomai",
+    creator: "@nexcent",
   },
   robots: {
     index: true,

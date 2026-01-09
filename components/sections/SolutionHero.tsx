@@ -27,7 +27,7 @@ const SolutionHero = ({ title, subtitle, description, ctaText, ctaHref }: Soluti
             </div>
           )}
 
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-foreground leading-tight mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
             {title}
           </h1>
 

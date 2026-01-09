@@ -5,11 +5,11 @@ import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Solutions | Axiom AI - AI MVP Launch, Agents & SaaS Development",
+  title: "Solutions | Nexcent - AI MVP Launch, Agents & SaaS Development",
   description: "Explore our solutions: AI MVP Launch, AI Agents & Automation, and SaaS Product Development. Choose the right path for your product vision.",
   keywords: ["AI MVP", "AI agents", "SaaS development", "product development", "automation"],
   openGraph: {
-    title: "Solutions | Axiom AI",
+    title: "Solutions | Nexcent",
     description: "Explore our solutions: AI MVP Launch, AI Agents & Automation, and SaaS Product Development.",
     type: "website",
   },

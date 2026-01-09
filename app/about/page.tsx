@@ -1,16 +1,17 @@
 import { Metadata } from "next";
 import SolutionHero from "@/components/sections/SolutionHero";
 import StorySection from "@/components/sections/StorySection";
+import TrustworthySection from "@/components/sections/TrustworthySection";
 import ValuesSection from "@/components/sections/ValuesSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "About | Axiom AI - A Product Studio Built for Outcomes",
+  title: "About | Nexcent - A Product Studio Built for Outcomes",
   description: "A product studio built for outcomes. We help ambitious founders and teams ship AI-powered products that deliver real results.",
   keywords: ["about", "product studio", "team", "mission", "values"],
   openGraph: {
-    title: "About | Axiom AI",
+    title: "About | Nexcent",
     description: "A product studio built for outcomes. We help ambitious founders and teams ship AI-powered products.",
     type: "website",
   },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   const storyContent = [
-    "We started Axiom AI because we saw too many founders struggling to turn their AI visions into reality. The gap between having an idea and launching a product was too wide, too slow, and too expensive.",
+    "We started Nexcent because we saw too many founders struggling to turn their AI visions into reality. The gap between having an idea and launching a product was too wide, too slow, and too expensive.",
     "We built a different approach: fixed scope, fixed pricing, and fast delivery. No surprises, no scope creep, just results. We focus on outcomes, not hours. We build what actually works, not what looks good in a pitch deck.",
     "Our philosophy is simple: clarity, execution, and ownership. We bring clarity to your vision, execute with precision, and take ownership of the results. That's how we've helped 50+ founders launch products in 6-8 weeks.",
   ];
@@ -48,6 +49,7 @@ export default function AboutPage() {
         description="We help ambitious founders and teams ship AI-powered products that deliver real results. Clarity, execution, and ownership—that's our promise."
       />
       <StorySection content={storyContent} />
+      <TrustworthySection />
       <ValuesSection values={values} />
       <CTASection
         title="Work with us"

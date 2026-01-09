@@ -7,11 +7,11 @@ import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Product Launch Marketing | Axiom AI - Launch with Clarity",
+  title: "Product Launch Marketing | Nexcent - Launch with Clarity",
   description: "Launch your product with clarity and momentum. Landing pages, messaging, analytics, and launch campaigns.",
   keywords: ["product marketing", "launch marketing", "landing pages", "product launch", "marketing strategy"],
   openGraph: {
-    title: "Product Launch Marketing | Axiom AI",
+    title: "Product Launch Marketing | Nexcent",
     description: "Launch your product with clarity and momentum. Landing pages, messaging, and launch campaigns.",
     type: "website",
   },
